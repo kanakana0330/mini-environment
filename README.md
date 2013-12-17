@@ -10,22 +10,16 @@ Grunt `~0.4.0`
 
 ### Command
 
-#### compile for v1 &amp; V2
+#### compile for all
 
 ```shell
 % grunt
 ```
 
-#### watch for v1 &amp; V2
+#### watch for all
 
 ```shell
 % grunt watch
-```
-
-#### compile for v1 only
-
-```shell
-% grunt v1
 ```
 
 #### compile for only css
