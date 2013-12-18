@@ -9,7 +9,7 @@ module.exports = (grunt)->
 
     concat:
       dist_default_set:
-        src: ['resources/lib/*.js']
+        src: ['resources/lib/*.js', 'resources/src/default_set/*.js']
         dest: 'public/js/default_set.js'
 
       options:
