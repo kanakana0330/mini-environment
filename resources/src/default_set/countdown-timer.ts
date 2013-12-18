@@ -1,4 +1,4 @@
-module TOOLKIT {
+module DEFAULT_SET {
 
   export function countdownTimer(nodeName, limitOptions, redzoneOptions, callback) {
 

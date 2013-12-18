@@ -3,21 +3,14 @@ module.exports = (grunt)->
     pkg: grunt.file.readJSON('package.json')
 
     uglify:
-      build_toolkit:
-        files: 'public/js/toolkit_v2.min.js': ['public/js/toolkit_v2.js']
-      build_dev:
-        files: 'public/js_dev/dev_v2.min.js': ['public/js_dev/dev_v2.js']
+      build_default_set:
+        files: 'public/js/default_set.min.js': ['public/js/default_set.js']
 
 
     concat:
-      dist_toolkit:
-        src: ['resources/lib/toolkit/*.js', 'resources/src/toolkit/*.js']
-        dest: 'public/js/toolkit_v2.js'
-
-      dist_dev:
-        src: ['resources/lib/dev/*.js', 'resources/src/dev/*.js']
-        dest: 'public/js_dev/dev_v2.js'
-
+      dist_default_set:
+        src: ['resources/lib/*.js']
+        dest: 'public/js/default_set.js'
 
       options:
         separator: ';'

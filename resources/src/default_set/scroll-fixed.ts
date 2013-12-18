@@ -1,4 +1,4 @@
-module DEV_HELPER {
+module DEFAULT_SET {
 
     /*
     * 指定されたスクロール位置になったらposition:fixedの切り替えを行う

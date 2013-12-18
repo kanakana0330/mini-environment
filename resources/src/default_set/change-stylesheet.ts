@@ -1,6 +1,6 @@
 /// <reference path="ua-type-factory.ts" />
 
-module DEV_HELPER {
+module DEFAULT_SET {
 
     export function changeStylesheet(args) {
 

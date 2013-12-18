@@ -1,7 +1,7 @@
 /// <reference path="../../definitions/jquery.d.ts" />
 /// <reference path="../../definitions/qflipper.d.ts" />
 
-module TOOLKIT {
+module DEFAULT_SET {
 
   export function loadQflipper(options) {
 

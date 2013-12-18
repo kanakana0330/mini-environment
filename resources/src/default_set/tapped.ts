@@ -1,4 +1,4 @@
-module TOOLKIT {
+module DEFAULT_SET {
 
   /*
   * 指定されたクラスが付与されている要素に

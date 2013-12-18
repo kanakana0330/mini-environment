@@ -1,6 +1,6 @@
 {
-  "name": "Toolkit",
-  "version": "0.0.0",
+  "name": "miniSettings",
+  "version": "0.0.1",
   "devDependencies": {
     "grunt": "~0.4.1",
     "grunt-ts": "latest",

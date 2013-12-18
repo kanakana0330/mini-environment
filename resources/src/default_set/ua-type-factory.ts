@@ -1,4 +1,4 @@
-module DEV_HELPER {
+module DEFAULT_SET {
 
     export function uaTypeFactory(ua: string): string {
 

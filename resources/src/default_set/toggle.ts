@@ -1,4 +1,4 @@
-module TOOLKIT {
+module DEFAULT_SET {
 
   /*
   * toggle
